@@ -1,0 +1,145 @@
+    body {
+        font-family: sans-serif;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 2rem;
+        margin-right: 10%;
+    }
+
+    #generatedIXITs
+    {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    
+    td, th {
+      border: 1px solid #eee;
+      padding: 8px;
+    }
+
+    th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      color: #04A;
+    }
+
+    .section > th, .section > td {
+        background-color: #04A;
+        color: white;
+        border: none;
+    }
+    
+    tr:nth-child(even){
+        background-color: #fafafa;
+    }
+    
+    tr:hover {
+        background-color: #eee;
+    }
+    
+    thead * {
+        background: #017;
+        color: #FFF;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #consolidatedIXITs table td:first-of-type {
+        text-wrap: nowrap;
+        font-weight: bold;
+    }
+
+    #consolidatedIXITs table td:last-of-type span:hover {
+        cursor: pointer;
+    }
+
+    h1 {
+        color: #04A;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    select {
+        border: 1px solid #04A;
+        color: #04A;
+        padding: 0.5rem;
+    }
+
+    button, input[type="file"]::file-selector-button {
+        background-color: white;
+        border: 1px solid #04A;
+        color: #04A;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    button:hover, input[type=file]::file-selector-button:hover {
+        background: #06F;
+        color: #F1F1F1;
+        border: 1px solid #0044aa;
+        cursor: pointer;
+    }
+
+    .drop-container {
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px dashed #04A;
+    color: #999;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    max-width: 85%;
+  }
+
+    .drop-container:hover, .drop-container.drag-active, .drop-container.drag-active .drop-title:hover {
+    background: #eee;
+    border-color: #06F;
+    }
+
+    .drop-container:hover .drop-title, .drop-container.drag-active .drop-title, .drop-container.drag-active:hover .drop-title {
+    color: #06F;
+    }
+
+    .drop-title {
+    color: #04A;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+    }
+
+    .drop-container input {
+        font-size: 0.7rem;
+    }
+
+    .center {
+    display: flex;
+    justify-content: center;
+    }
+
+    #import-ics p {
+    margin: 0.1rem 0;
+    }
