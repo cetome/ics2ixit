@@ -10,7 +10,7 @@ The consolidated IXITs are automatically updated.
 ICS2IXIT can export consolidated IXITs in an Excel format
 
 ## Online version
-Access the online version on [ics2ixit.cetome.com]
+Access the online version on [ics2ixit.cetome.com](https://ics2ixit.cetome.com)
 
 
 ## Dependencies
