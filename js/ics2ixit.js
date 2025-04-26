@@ -196,6 +196,9 @@ async function handleFile(file) {
         }
       });
 
+      consolidateIXITs();
+      runColorize(); 
+      
       scrollDownTo('consolidatedIXITs');
 
     };
